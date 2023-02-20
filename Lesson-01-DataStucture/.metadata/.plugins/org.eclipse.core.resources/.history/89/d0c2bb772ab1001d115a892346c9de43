@@ -14,18 +14,17 @@ public class Ex01 {
 	}
 
 	// cách 1
-	public static boolean isPowerOfTwo(int number) { // number = 8
+	public static boolean isPowerOfTwo(int number) {
 
 		if (number < 2) { // is power of 2 , must greater than 2
 			return false;
 		} else {
 			while (number > 1) {
-				int temp = number % 2; // chia lấy phần dư 9 % 2 = 1
-				// những số % cho 2 != 0 -> số lẻ <- không phải là lũy thừa của số 2
+				int temp = number % 2; // chia lấy phần dư
 				if (temp != 0) {
 					return false;
 				}
-				number =  number / 2;   
+				number =  number / 2;
 			}
 		}
 
