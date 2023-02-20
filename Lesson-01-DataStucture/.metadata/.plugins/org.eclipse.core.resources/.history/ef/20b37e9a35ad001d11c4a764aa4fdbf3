@@ -1,0 +1,17 @@
+package demo;
+
+import java.util.Scanner;
+
+public class App {
+	public static void main(String[] args) {
+		
+		// Lớp nhâp 
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter your year'birthday : ");
+		int year = sc.nextInt();
+		int age = 2023 - year;
+		System.out.println("Your age is: " +age);
+	}
+	
+	// main crtl + space
+}

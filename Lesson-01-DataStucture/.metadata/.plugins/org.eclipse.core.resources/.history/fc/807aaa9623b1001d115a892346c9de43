@@ -1,0 +1,36 @@
+package exercices;
+
+import java.util.Scanner;
+
+public class Ex01 {
+	public static void main(String[] args) {
+		// Bài 1: Viết chương trình kiểm tra 1 số có phải là lũy thừa của 2 hay không
+
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter your number: ");
+		int number = sc.nextInt();
+		System.out.println(isPowerOfTwo(number));
+
+	}
+
+	// cách 1
+	public static boolean isPowerOfTwo(int number) {
+
+		if (number == 1 || number == 0) {
+			return false;
+		} else {
+			int temp = number / 2;
+			int temp1 = number % 2;
+			while (temp < 0) {
+				if (temp1 == 1) {
+					return false;
+				}
+				temp = number / 2;
+				temp1 = temp % 2;
+			}
+		}
+
+		return true;
+	}
+
+}

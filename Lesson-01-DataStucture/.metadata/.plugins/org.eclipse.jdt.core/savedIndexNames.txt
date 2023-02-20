@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+D:\Workspace\Java\Teach\K01\Lesson-01-DataStucture\.metadata\.plugins\org.eclipse.jdt.core
+2784119153.index
+184680328.index
+2067926198.index
