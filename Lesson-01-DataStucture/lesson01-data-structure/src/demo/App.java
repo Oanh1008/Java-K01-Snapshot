@@ -2,6 +2,8 @@ package demo;
 
 import java.util.Scanner;
 
+import exercices.Ex01;
+
 public class App {
 	public static void main(String[] args) {
 		
@@ -37,6 +39,10 @@ public class App {
 		for (int i = 1 ;i <=19 ;i++) {
 			System.out.println(i);
 		}
+		
+		
+		Ex01 ex01 = new Ex01();
+		
 	}
 
 	// main crtl + space

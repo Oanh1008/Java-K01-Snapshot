@@ -3,6 +3,9 @@ package exercices;
 import java.util.Scanner;
 
 public class Ex01 {
+	
+	protected int color;
+	
 	public static void main(String[] args) {
 		// Bài 1: Viết chương trình kiểm tra 1 số có phải là lũy thừa của 2 hay không
 

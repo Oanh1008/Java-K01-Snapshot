@@ -20,6 +20,10 @@ public class Ex02 {
 		}
 		
 		System.out.println(sum);
+		
+		
+		Ex01 ex01 = new Ex01();
+		ex01.color = 2;
 
 	}
 
