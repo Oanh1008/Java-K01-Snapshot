@@ -4,4 +4,5 @@
     <fullyQualifiedTypeName name="jdk.internal.perf.Perf.GetPerfAction"/>
     <fullyQualifiedTypeName name="java.math.BigInteger"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>
