@@ -1,6 +1,6 @@
 package pojo;
 
-public class Circle {
+public class Circle extends AbstractCommon{
 
 	private Point center; // Tọa độ tâm
 	
@@ -35,6 +35,13 @@ public class Circle {
 	@Override
 	public String toString() {
 		return "Circle [center=" + center + ", radius=" + radius + "]";
+	}
+
+	@Override
+	public void paint() {
+		// TODO Auto-generated method stub
+		System.out.println("Circle");
+		
 	}
 	
 }

@@ -1,6 +1,6 @@
 package pojo;
 
-public class Point {
+public class Point extends AbstractCommon{
 	
 	private int x;
 	
@@ -36,6 +36,13 @@ public class Point {
 	@Override
 	public String toString() {
 		return "Point [x=" + x + ", y=" + y + "]";
+	}
+
+	@Override
+	public void paint() {
+		// TODO Auto-generated method stub
+		System.out.println("Point");
+		
 	}
 	
 	
