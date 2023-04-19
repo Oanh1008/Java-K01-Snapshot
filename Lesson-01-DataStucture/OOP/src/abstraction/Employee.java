@@ -39,15 +39,18 @@ public class Employee extends Person {
 		System.out.println("QR code");
 	}
 
-	@Override
-	public void learning() {
-		System.out.println("Employee is learning !!!");
-	}
+	
 	
 	@Override
 	public void run() {
 		// TODO Auto-generated method stub
 		System.out.println("Employee is running !!!");
+	}
+
+	@Override
+	public void learning() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

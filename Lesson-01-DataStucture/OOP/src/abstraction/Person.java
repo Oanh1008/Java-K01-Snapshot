@@ -36,11 +36,11 @@ public abstract class Person {
 		System.out.println("Chuyeenr khoang bang ipay");
 	}
 	
-	public abstract void learning();
+	public abstract void learning(); // ham abstract
 	
 	public void run() {
 		
-		System.out.println("Running !!!");
+		System.out.println("Running !!!"); // ham binh thuong
 	}
 
 }
